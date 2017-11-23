@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="boywigh.communicate.MainActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btnmsg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Message"
+        tools:layout_editor_absoluteY="92dp" />
+
+    <Button
+        android:layout_below="@+id/btnmsg"
+        android:id="@+id/btnmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mail"
+        tools:layout_editor_absoluteY="144dp" />
+
+    <Button
+        android:layout_below="@id/btnmail"
+        android:id="@+id/btncall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Call"
+        tools:layout_editor_absoluteY="195dp" />
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
